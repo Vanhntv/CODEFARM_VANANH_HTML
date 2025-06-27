@@ -11,7 +11,7 @@ body {
 
 .container {
   display: flex;
-  height: 100vh;
+  height: 100;
   width: 100%;
 }
 
@@ -84,18 +84,18 @@ form input[type="password"] {
 
 .logos img {
   height: 30px;
-  opacity: 0.6;
+
 }
 
 .google, .apple {
     border-radius: 10px;
-    opacity: 0.6;
+    
 }
 
 
 .apple {
     border-radius: 10px;
-    opacity: 0.6;
+
 }
 
 .left {
@@ -115,11 +115,15 @@ form input[type="password"] {
   justify-content: center;
 }
 
-.logos>button {
-    width: 200px;
+.logos>a {
     height: 40px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 8px;
+    border: 1px solid black; 
+    padding: 0 8px;
 }
 
 
