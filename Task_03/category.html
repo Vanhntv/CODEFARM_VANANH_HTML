@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<!-- meta seo -->
+	<title>Category - Home page</title>
+	<link rel="icon" type="image/x-icon" href="https://tokyolife.vn/logo-vertical.svg" />
+
+	<!-- reset css -->
+	<link rel="stylesheet" href="./assets/styles/reset.css" />
+
+	<!-- bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous" />
+	<!-- icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+		integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+	<!-- common css -->
+	<link rel="stylesheet" href="./assets/styles/common.css" />
+
+	<!-- main css -->
+	<link rel="stylesheet" href="./assets/styles/main.css" />
+</head>
+
+
+<body>
+	<header>
+		<div class="header-top">
+
+			<p>Sign up and get 20% off to your first order. <a href="./signup">Sign Up</a> Now</p>
+			<button>x</button>
+
+		</div>
+		<div class="header-main">
+			<div class="container flex-space-beetwen gap-5">
+				<div class="logo">
+					<a href="/">SHOP.CO</a>
+				</div>
+				<nav class="main-menu">
+					<ul class="flex-space-beetwen gap-3">
+						<li><a href="/Task_03/index.html">Shop</a></li>
+						<li><a href="/Task_03/product-detail.html">On Sale</a></li>
+						<li><a href="/Task_03/category.html">Arrivals</a></li>
+						<li><a href="/Task_03/cart.html">Brands</a></li>
+					</ul>
+				</nav>
+				<input type="text" class="search" placeholder="Search for products..." />
+				<div class="user-control">
+					<button><i class="fa-solid fa-cart-shopping"></i></button>
+					<button><i class="fa-solid fa-user"></i></button>
+				</div>
+			</div>
+			<!-- BEM = Block Element Modifier -->
+		</div>
+		<div class="hr">
+			<p></p>
+		</div>
+	</header>
+
+	<div class="h-cart">Home > Cart</div>
+
+
+
+
+	<div class="container-category">
+		<!-- Sidebar -->
+		<aside class="sidebar">
+			<h3>Filters</h3>
+			<div class="hr-category">
+				<p></p>
+			</div>
+			<div class="filter-section">
+				<ul>
+					<div class="ctgr-nav">
+						<li>T-shirts</li><a href="">></a>
+					</div>
+					<div class="ctgr-nav">
+						<li>Shorts</li><a href="">></a>
+					</div>
+					<div class="ctgr-nav">
+						<li>Shirts</li><a href="">></a>
+					</div>
+					<div class="ctgr-nav">
+						<li>Hoodie</li><a href="">></a>
+					</div>
+					<div class="ctgr-nav">
+						<li>Jeans</li><a href="">></a>
+					</div>
+				</ul>
+			</div>
+			<div class="hr-category">
+				<p></p>
+			</div>
+			<div class="filter-section">
+				<p>Price</p>
+				<div style="width: 300px; position: relative; height: 50px">
+					<input type="range" id="min" min="0" max="100" value="20" step="1"
+						style="position: absolute; width: 70%; color: gray;" />
+					<input type="range" id="max" min="0" max="100" value="80" step="1"
+						style="position: absolute; width: 70%; background-color: black;" />
+				</div>
+			</div>
+			<div class="hr-category">
+				<p></p>
+			</div>
+			<div class="filter-section">
+				<div class="tranl">
+					<p>Colors</p><a href="">></a>
+				</div>
+				<div class="colors">
+					<div class="color-1">
+						<span class="color green"></span>
+						<span class="color red"></span>
+						<span class="color orange"></span>
+						<span class="color yellow"></span>
+						<span class="color blue"></span>
+					</div>
+
+					<div class="color-2">
+						<span class="color blue active"></span>
+						<span class="color purple"></span>
+						<span class="color black"></span>
+						<span class="color white"></span>
+						<span class="color pink"></span>
+					</div>
+				</div>
+			</div>
+			<div class="hr-category">
+				<p></p>
+			</div>
+			<div class="filter-section">
+				<p>Size</p>
+				<div class="sizes">
+					<button>XX-Small</button>
+					<button>X-Small</button>
+					<button>Small</button>
+					<button>Medium</button>
+					<button class="active">Large</button>
+					<button>X-Large</button>
+					<button>XX-Large</button>
+					<button>3X-Large</button>
+					<button>4X-Large</button>
+				</div>
+			</div>
+			<div class="hr-category">
+				<p></p>
+			</div>
+			<div class="filter-section">
+				<p>Dress Style</p>
+				<ul>
+					<div class="ctgr-nav">
+						<li>Casual</li><a href="">></a>
+					</div>
+					<div class="ctgr-nav">
+						<li>Formal</li><a href="">></a>
+					</div>
+					<div class="ctgr-nav">
+						<li>Party</li><a href="">></a>
+					</div>
+					<div class="ctgr-nav">
+						<li>Gym</li><a href="">></a>
+					</div>
+				</ul>
+				
+			</div>
+
+			<button class="apply-btn">Apply Filter</button>
+		</aside>
+
+		<div class="category">
+			<div class="category-1">
+				<div class="category-item"><img src="./assets/imgs/tx13.webp" alt=""
+						style="width: 255px; height: 258px;">
+					<p>Chanel Mini Handle Bag</p>
+					<p>sao</p>
+					<p>$240</p>
+				</div>
+				<div class="category-item"><img src="./assets/imgs/tx14.webp" alt=""
+						style="width: 255px; height: 258px;">
+					<p>Chanel Small Coco Handle</p>
+					<p>sao</p>
+					<p>$240</p>
+				</div>
+				<div class="category-item"><img src="./assets/imgs/tx15.webp" alt=""
+						style="width: 255px; height: 258px;">
+					<p>Versace Medusa 95 Small Handbag</p>
+					<p>sao</p>
+					<p>$240</p>
+				</div>
+
+			</div>
+
+			<div class="category-1">
+				<div class="category-item"><img src="./assets/imgs/tx16.webp" alt=""
+						style="width: 255px; height: 258px;">
+					<p> Dolce & Gabbana D&G</p>
+					<p>sao</p>
+					<p>$240</p>
+				</div>
+				<div class="category-item"><img src="./assets/imgs/tx17.webp" alt=""
+						style="width: 255px; height: 258px;">
+					<p>Michael Kors MK Talia Large</p>
+					<p>sao</p>
+					<p>$240</p>
+				</div>
+				<div class="category-item"><img src="./assets/imgs/tx10.webp" alt=""
+						style="width: 255px; height: 258px;">
+					<p>Chanel Sweeheart Mini</p>
+					<p>sao</p>
+					<p>$240</p>
+				</div>
+
+			</div>
+
+			<div class="category-1">
+				<div class="category-item"><img src="./assets/imgs/tx07.webp" alt=""
+						style="width: 255px; height: 258px;">
+					<p>Lacoste Women's</p>
+					<p>sao</p>
+					<p>$240</p>
+				</div>
+				<div class="category-item"><img src="./assets/imgs/tx06.webp" alt=""
+						style="width: 255px; height: 258px;">
+					<p>Louis Vuitton LV Nano</p>
+					<p>sao</p>
+					<p>$240</p>
+				</div>
+				<div class="category-item"><img src="./assets/imgs/tx09.webp" alt=""
+						style="width: 255px; height: 258px;">
+					<p>Dior Small Lady D-Joy</p>
+					<p>sao</p>
+					<p>$240</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<section id="subcribe">
+		<div class="subcribe-content">
+			<h2>STAY UPTO DATE ABOUT<br>OUR LATEST OFFERS</h2>
+			<div class="subcribe-form">
+				<input type="email" placeholder="Enter your email address" />
+				<button>Subscribe to Newsletter</button>
+			</div>
+		</div>
+	</section>
+	<footer>
+
+		<div class="footer-top">
+			<div class="brand">
+				<h3>SHOP.CO</h3>
+				<p>We have clothes that suits your style and which you're proud to wear. From women to men.</p>
+				<div class="social">
+					<i class="fab fa-twitter"></i>
+					<i class="fab fa-facebook-f">+</i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-github"></i>
+				</div>
+			</div>
+			<div class="footer-columns">
+				<div class="column">
+					<h4>Company</h4>
+					<li>About</li>
+						<li>Features</li>
+						<li>Works</li>
+						<li>Career</li>
+				</div>
+				<div class="column">
+					<h4>Help</h4>
+					<li>Customer Support</li>
+						<li>Delivery Details</li>
+						<li>Terms & Conditions</li>
+						<li>Privacy Policy</li>
+				</div>
+				<div class="column">
+					<h4>FAQ</h4>
+					<li>Account</li>
+						<li>Manage Deliveries</li>
+						<li>Orders</li>
+						<li>Payments</li>
+				</div>
+				<div class="column">
+					<h4>Resources</h4>
+					<li>Free eBooks</li>
+						<li>Development Tutorial</li>
+						<li>How to - Blog</li>
+						<li>Youtube Playlist</li>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="footer-bottom">
+			<p>Shop.co © 2000–2023, All Rights Reserved</p>
+			<div class="payment-icons">
+				<img src="./assets/imgs/Badge.png" alt="Visa" />
+				<img src="./assets/imgs/Badge (1).png" alt="MasterCard" />
+				<img src="./assets/imgs/Badge (2).png" alt="PayPal" />
+				<img src="./assets/imgs/Badge (3).png" alt="Apple Pay" />
+				<img src="./assets/imgs/Badge (4).png" alt="Google Pay" />
+			</div>
+		</div>
+
+	</footer>
+	<!-- bootstrap -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+		crossorigin="anonymous"></script>
+</body>
+
+</html>
